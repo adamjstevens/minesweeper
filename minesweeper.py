@@ -10,6 +10,7 @@ INFO_HEIGHT = 60
 SMILE_SIZE = INFO_HEIGHT
 
 class MinesweeperApp(tk.Frame):
+    
     def __init__(self, board, master=None):
         super().__init__(master)
         self.master = master 
